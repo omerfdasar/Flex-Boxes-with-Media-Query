@@ -1,0 +1,88 @@
+header {
+  background-color: firebrick;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  align-items: center;
+  font-size: 1rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+header a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.container {
+  background-color: bisque;
+  font-size: 2rem;
+  border: 5px solid blueviolet;
+  text-align: center;
+  width: 80%;
+  align-items: center;
+  margin: 10% auto;
+}
+
+header div {
+  margin: 0 1vw;
+}
+@media screen and (max-width: 992px) {
+  body {
+    background-color: grey;
+  }
+  header {
+    height: 5vw;
+    min-width: 40px;
+  }
+  .container {
+    border: 8px solid rgb(126, 16, 230);
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-color: aquamarine;
+  }
+  .container {
+    border: 10px groove rgb(105, 3, 201);
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: cadetblue;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: transparent;
+    margin-top: 6%;
+  }
+  header > div {
+    background-color: grey;
+    width: 90%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+    border: 1px solid black;
+  }
+  .container {
+    border: none;
+    background-color: cadetblue;
+    margin-top: 50%;
+  }
+  header div:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  header a:hover {
+    background-color: transparent;
