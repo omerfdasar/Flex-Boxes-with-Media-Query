@@ -34,6 +34,9 @@ header a:hover {
 header div {
   margin: 0 1vw;
 }
+#magic {
+  display: none;
+}
 @media screen and (max-width: 992px) {
   body {
     background-color: grey;
@@ -86,3 +89,12 @@ header div {
   }
   header a:hover {
     background-color: transparent;
+  }
+  p {
+    display: none;
+  }
+  #magic {
+    display: block;
+    text-align: center;
+  }
+}
